@@ -422,6 +422,41 @@ article .icon {
   height: 2.5rem;
 }
 
+#contactForm {
+  width: 100%;
+  max-width: 600px;
+  padding: 15px;
+  margin: auto;
+}
+
+#contactForm input,
+#contactForm textarea {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#contactForm input[type="submit"] {
+  background: #3092f0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+  #contactForm {
+      padding: 10px;
+  }
+
+  #contactForm input,
+  #contactForm textarea {
+      padding: 10px;
+      margin-bottom: 8px; /* Adjust the margin for smaller screens */
+  }
+}
+
 /* FOOTER SECTION */
 
 footer {
