@@ -38,6 +38,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
+  background: rgb(255, 175, 204) ;
 }
 
 .nav-links {
@@ -443,6 +444,8 @@ article .icon {
   border: 0;
   color: white;
   cursor: pointer;
+  width: 200px;
+  
 }
 
 @media only screen and (max-width: 600px) {
@@ -457,7 +460,7 @@ article .icon {
   }
 }
 
-/* FOOTER SECTION */
+ FOOTER SECTION
 
 footer {
   height: 26vh;
@@ -466,4 +469,4 @@ footer {
 
 footer p {
   text-align: center;
-}
+} 
